@@ -1,0 +1,285 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  A bright and image filled report style, currently set up here for use with ILM report 8600-219.
+%  Contains all that is required, glossaries, content management, references and good looks.
+%
+% The original template (the Legrand Orange Book Template) can be found here --> http://www.latextemplates.com/template/the-legrand-orange-book
+% Original author of the Legrand Orange Book Template:
+% Mathias Legrand (legrand.mathias@gmail.com) 
+%
+% Modifications made for ILM specific reporting
+% 
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% How to use this
+%
+% Upload a file called FrontCover.jpg to become your new front cover - into the Pictures folder
+% Upload files called Heading1.jpg, Heading2.jpg etc to become your new chapter headers - into the Pictures folder
+% Make sure these images are the right size to fit their locations and use good quality images
+%
+% Locate the variables below and set your name, title etc.
+%
+% If you want to change text colour on the front cover, the areas required are commented below
+% If you want to modify text and border colours for your chapter headers go into the structure.tex file and replace the name of the colour (set to ) with a new colour name (find and replace ctrl+f will do this for you).
+%
+% Add all references into references.bib
+% Cite these references by using \cite{referenceName}
+%
+% Commonly used acronyms or industry specific terms should be added to the glossary
+% These terms may then be referenced in the text using \gls{termName}
+%
+% Finally put some answers in there!
+%
+% 
+% Note: This template is set up specifically for ILM reports, it can be modified for other forms of reports
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+ 
+%----------------------------------------------------------------------------------------
+%	SET THESE VARIABLES!
+%----------------------------------------------------------------------------------------
+
+\def\mytitle{MMIV Activities} % Title of the ILM project
+\def\ILMCode{Annual Scientific Report 2020} % Unique code for the ILM project
+
+\def\ILMCentreName{Mohn Medical Imaging and Visualization Center} % The name of the centre you're the ILM sitting at
+\def\ILMCentreCode{Norway} % Unique code the centre at which you're sitting the ILM
+\def\ILMLevel{ } % What level are you sitting with the ILM. i.e. 3, 4, 5
+\def\reviewer{} % You may not know this, if not use the centre's name
+
+\def\author{Hauke Bartsch } % Your name.. 
+\def\id{} % Your unique identifier
+
+\def\date{\today } % Today's date 
+
+
+ 
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,fleqn]{book} % Default font size and left-justified equations
+
+\usepackage[dvipsnames]{xcolor}
+
+\input{structure}
+
+\makeglossaries
+
+%--------------------------------------------------------------------------
+
+% Glossary entries
+
+%--------------------------------------------------------------------------
+\newglossaryentry{ETN}
+{
+    name = {Example Term Name (ETN)},
+    description = {What does this term mean? Any examples of it? Further reading? References?}
+}
+
+%--------------------------------------------------------------------------
+
+% Document begins here
+
+%--------------------------------------------------------------------------
+
+\setlength{\columnseprule}{1pt}
+\def\columnseprulecolor{\color{Apricot}}
+
+\usepackage{multicol,caption}
+ 
+%%\begin{multicols}{3}
+%%[
+\begin{document}
+\renewcommand{\bibname}{References} % Adds in the link to your references
+
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begingroup
+\thispagestyle{empty}
+\AddToShipoutPicture*{\put(0,0){\includegraphics[height=\paperheight]{Pictures/FrontCover.jpg}}} % Image background
+\centering
+\vspace*{11.3cm}
+\par\normalfont\fontsize{35}{35}\sffamily\selectfont
+
+\begin{center}
+    % List of Latex Colour names here: https://www.overleaf.com/learn/latex/Using_colours_in_LaTeX
+    \text{\color{Apricot} \mytitle}  % Modify the name of the colour used to suit your image
+    
+    \text{\color{White}\ILMCode} % Modify the name of the colour used to suit your image
+    
+    \color{black}\par % Modify the name of the colour used to suit your image
+    
+    \vspace*{0.5cm}
+    %%\color{Apricot}\author % Modify the name of the colour used to suit your image
+\end{center}
+
+\endgroup
+
+%----------------------------------------------------------------------------------------
+%	COPYRIGHT PAGE
+%----------------------------------------------------------------------------------------
+
+
+\newpage
+~\vfill
+\thispagestyle{empty}
+
+\noindent \textbf{Statement of authorship}
+\vspace{0.5cm}
+
+\noindent This document is a collection of research activities performed at the Mohn Medical 
+Imaging and Visualization center of Bergen's Haukeland University Hospital. As such the rights
+of all written word and images lies with the respective authors. Contact them before you use
+the content in any way publicly or privately.
+\vspace{1cm}
+
+\noindent \textbf{Contact information}
+\vspace{0.5cm}
+
+\noindent Visit the Mohn Medical Imaging and Visualization center at the 5th floor of the Haraldsplass Diakonale Sykehus (new building), Ulriksdal 8, N - 5009 Bergen/Norway.
+\vspace{1cm}
+
+\noindent \textsc{\ILMCentreName - Activities report}\\
+
+\noindent This document template was written by \author and is based on the Legrand Orange Book Template (http://www.latextemplates.com/template/the-legrand-orange-book), Mathias Legrand (legrand.mathias@gmail.com), later changed by the ILM and released under license CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/).
+
+\noindent \textit{First release, \date} % Printing/edition date
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+\chapterimage{Heading1.jpg} % Table of contents heading image
+
+\pagestyle{empty} % No headers
+
+\tableofcontents % Print the table of contents itself
+
+%\listoftables %uncomment this if you want to print the list of tables at the start
+
+\pagestyle{fancy} % Print headers again
+
+
+%----------------------------------------------------------------------------------------
+%	Glossary
+%----------------------------------------------------------------------------------------
+%
+%\chapterimage{Heading1.jpg} % Table of contents heading image
+%
+%\printglossaries
+
+
+
+%----------------------------------------------------------------------------------------
+%	First set of related questions
+%----------------------------------------------------------------------------------------
+
+\chapterimage{Heading2.jpg}
+\chapter{Events}
+\newpage
+
+
+%% Example for a section that should be created by the build system
+\begin{multicols}{3}
+[
+    \ssection{The very basics of web-programming - without any gaps}{\textbf{Hauke Bartsch, Dr. rer. nat.}}
+    \subtitle{A programming class for the absolute beginners}
+]
+\noindent No prior programing skills are required but, you have to bring a laptop and 
+you should be awake. With this class you should be able to create single page web
+applications from scratch for machine learning and visualization projects.
+
+\noindent This is further temp text to explore how a paragraph looks like in the multi-column environment. We 
+would like to see a picture in a column - or in more than a column. With something like this we can
+create a nice looking template for the text in the paper like section that is described in the Event
+sub-folder. But the figure has to show up as well to make this work.
+
+\begin{Figure}
+    \centering
+    \includegraphics[width=\linewidth]{../Events/ev01/image.png} % If you want a smaller image you can change the width to [width=0.5\textwidth] or any percentage. This scales automatically, so will not become squashed or stretched 
+    \captionof{figure}{\normalfont\sffamily\small Example figure}
+\end{Figure}
+
+\end{multicols}
+
+
+
+%--------------------------------------------------------------
+%	Second set of related questions
+%----------------------------------------------------------------------------
+
+\chapterimage{Heading3.jpg}
+\chapter{Dissertations}
+\newpage
+
+
+%--------------------------------------------------------------
+%	
+%----------------------------------------------------------------------------
+
+\chapterimage{Heading6.jpg}
+\chapter{Software}
+\newpage
+
+%%PLACEHOLDERSOFTWARE%%
+
+\begin{multicols}{3}
+    [
+        \ssection{Geodesic distances in white matter}{\textbf{Hauke Bartsch, Dr. rer. nat.}\\https://github.com/mmiv-center/HeatEquation.git}
+        \subtitle{Curvilinear coordinates in human white matter}
+    ]
+    \noindent \lettrine[lines=4]{\color{Black}T}{} his module creates curvilinear coordinates from volumetric label fields. 
+    It simulates the heat equation and exports the temperature (potential) field and the 
+    gradient of the potential field (tangent unit vector). The gradient field represents the 
+    directions of geodesic lines connecting the fixed temperature regions.
+
+    This module can be used to compute the shorted path between points of the ventricles 
+    and points of the white/gray matter border using structural information (white matter) 
+    only. It can also be used to sample the white matter at a given distance perpendicular to 
+    the gray/white matter border.
+        
+\end{multicols}
+    
+
+\begin{multicols}{3}
+    [
+        \ssection{Lung Segmentation for the Masses}{\textbf{Hauke Bartsch, Dr. rer. nat.}\\https://github.com/mmiv-center/LungSegmentation.git}
+        \subtitle{Understanding lung anatomy}
+    ]
+    \noindent \lettrine[lines=4]{\color{Black}T}{} his program is using a series of labelling and morphological operations to extract the Lung volume intensity image from chest CT scans. It was tested with the data 
+    from the LIDC-IDRI (Lung Image Database Consortium) project and depends on ITK/cmake.
+    
+        
+\end{multicols}
+
+
+%--------------------------------------------------------------
+%	More sections?
+%----------------------------------------------------------------------------
+
+% Simply upload additional images Heading5.jpg, Heading6.jpg etc. into the pictures folder
+
+\chapterimage{Heading5.jpg}
+\chapter{Research Projects}
+\newpage
+
+
+%----------------------------------------------------------------------------------------
+%	References
+%----------------------------------------------------------------------------------------
+
+\chapterimage{Heading1.jpg} % Chapter heading image
+\chapter{Publications}
+\bibliographystyle{plain} % Change this to IEEE or Harvard etc.
+\bibliography{references}
+
+
+\end{document}
