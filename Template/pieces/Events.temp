@@ -3,5 +3,13 @@
         \ssection{%%title%%}{\textbf{%%author%%}\\%%url%%}
         \subtitle{%%subtitle%%}
     ]
-    %%text%%       
+    %%text%%
+
+    %% footer
+    \begin{tcolorbox}[colback=ProcessBlue!5!white,colframe=ProcessBlue!95!black,title=Summary]
+    Tags: %%tags%%\\
+    Date: %%date%%\\
+    Location: %%location%%\\
+    Audience: %%audience%%      
+    \end{tcolorbox}
 \end{multicols}
