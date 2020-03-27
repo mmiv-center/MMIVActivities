@@ -44,7 +44,7 @@
 %----------------------------------------------------------------------------------------
 
 \def\mytitle{MMIV Activities} % Title of the ILM project
-\def\ILMCode{Annual Scientific Report 2020} % Unique code for the ILM project
+\def\ILMCode{Scientific Report 2020} % Unique code for the ILM project
 
 \def\ILMCentreName{Mohn Medical Imaging and Visualization Center} % The name of the centre you're the ILM sitting at
 \def\ILMCentreCode{Norway} % Unique code the centre at which you're sitting the ILM
@@ -66,21 +66,22 @@
 
 \usepackage[dvipsnames]{xcolor}
 \usepackage{tcolorbox}
+\usepackage{wrapfig}
 
 \input{structure}
 
-\makeglossaries
+%\makeglossaries
 
 %--------------------------------------------------------------------------
 
 % Glossary entries
 
 %--------------------------------------------------------------------------
-\newglossaryentry{ETN}
-{
-    name = {Example Term Name (ETN)},
-    description = {What does this term mean? Any examples of it? Further reading? References?}
-}
+%\newglossaryentry{ETN}
+%{
+%    name = {Example Term Name (ETN)},
+%    description = {What does this term mean? Any examples of it? Further reading? References?}
+%}
 
 %--------------------------------------------------------------------------
 
@@ -88,7 +89,7 @@
 
 %--------------------------------------------------------------------------
 
-\setlength{\columnseprule}{1pt}
+\setlength{\columnseprule}{0pt}
 \def\columnseprulecolor{\color{Apricot}}
 
 \usepackage{multicol,caption}
@@ -105,7 +106,7 @@
 
 \begingroup
 \thispagestyle{empty}
-\AddToShipoutPicture*{\put(0,0){\includegraphics[height=\paperheight]{Pictures/FrontCover.jpg}}} % Image background
+\AddToShipoutPicture*{\put(0,0){\includegraphics[height=\paperheight]{Pictures/MMIV-2.png}}} % Image background
 \centering
 \vspace*{11.3cm}
 \par\normalfont\fontsize{35}{35}\sffamily\selectfont
@@ -114,7 +115,7 @@
     % List of Latex Colour names here: https://www.overleaf.com/learn/latex/Using_colours_in_LaTeX
     \text{\color{Apricot} \mytitle}  % Modify the name of the colour used to suit your image
     
-    \text{\color{White}\ILMCode} % Modify the name of the colour used to suit your image
+    \text{\color{Black}\ILMCode} % Modify the name of the colour used to suit your image
     
     \color{black}\par % Modify the name of the colour used to suit your image
     
@@ -178,12 +179,23 @@ the content in any way publicly or privately.
 %\printglossaries
 
 
+%----------------------------------------------------------------------------------------
+%	Highlights
+%----------------------------------------------------------------------------------------
+
+\chapterimage{Highlights.jpg}
+\chapter{Highlights}
+\newpage
+
+%%PLACEHOLDERHIGHLIGHTS%%
+
+
 
 %----------------------------------------------------------------------------------------
-%	First set of related questions
+%	Events
 %----------------------------------------------------------------------------------------
 
-\chapterimage{Heading2.jpg}
+\chapterimage{MMIV.png}
 \chapter{Events}
 \newpage
 
@@ -236,34 +248,18 @@ the content in any way publicly or privately.
 
 %%PLACEHOLDERSOFTWARE%%
 
-\begin{multicols}{3}
-    [
-        \ssection{Geodesic distances in white matter}{\textbf{Hauke Bartsch, Dr. rer. nat.}\\https://github.com/mmiv-center/HeatEquation.git}
-        \subtitle{Curvilinear coordinates in human white matter}
-    ]
-    \noindent \lettrine[lines=4]{\color{Black}T}{} his module creates curvilinear coordinates from volumetric label fields. 
-    It simulates the heat equation and exports the temperature (potential) field and the 
-    gradient of the potential field (tangent unit vector). The gradient field represents the 
-    directions of geodesic lines connecting the fixed temperature regions.
-
-    This module can be used to compute the shorted path between points of the ventricles 
-    and points of the white/gray matter border using structural information (white matter) 
-    only. It can also be used to sample the white matter at a given distance perpendicular to 
-    the gray/white matter border.
-        
-\end{multicols}
     
 
-\begin{multicols}{3}
-    [
-        \ssection{Lung Segmentation for the Masses}{\textbf{Hauke Bartsch, Dr. rer. nat.}\\https://github.com/mmiv-center/LungSegmentation.git}
-        \subtitle{Understanding lung anatomy}
-    ]
-    \noindent \lettrine[lines=4]{\color{Black}T}{} his program is using a series of labelling and morphological operations to extract the Lung volume intensity image from chest CT scans. It was tested with the data 
-    from the LIDC-IDRI (Lung Image Database Consortium) project and depends on ITK/cmake.
-    
-        
-\end{multicols}
+%\begin{multicols}{3}
+%%    [
+%        \ssection{Lung Segmentation for the Masses}{\textbf{Hauke Bartsch, Dr. rer. nat.}\\https://github.com/mmiv-center/LungSegmentation.git}
+%        \subtitle{Understanding lung anatomy}
+%    ]
+%    \noindent \lettrine[lines=4]{\color{Black}T}{} his program is using a series of labelling and morphological operations to extract the Lung volume intensity image from chest CT scans. It was tested with the data 
+%    from the LIDC-IDRI (Lung Image Database Consortium) project and depends on ITK/cmake.
+%    
+%        
+%\end{multicols}
 
 
 %--------------------------------------------------------------

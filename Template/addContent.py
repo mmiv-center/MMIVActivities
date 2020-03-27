@@ -50,6 +50,7 @@ def main(argv):
     replacements = {'%%PLACEHOLDERSOFTWARE%%': 'Software',
                     '%%PLACEHOLDEREVENTS%%': 'Events',
                     '%%PLACEHOLDERDISSERTATIONS%%': 'Dissertations',
+                    '%%PLACEHOLDERHIGHLIGHTS%%': 'Highlights',
                     '%%PLACEHOLDERPROJECTS%%': 'Projects'
                     }
 
@@ -67,7 +68,7 @@ def main(argv):
         template = "".join(template)
 
         # now look for content
-        files = glob.glob("../%s/*/*.md" % (folder))
+        files = sorted(glob.glob("../%s/*/*.md" % (folder)))
         for file in files:
             print("  parse the content in %s" % file)
             file_content = ''

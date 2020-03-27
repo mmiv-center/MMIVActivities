@@ -1,5 +1,6 @@
 \begin{multicols}{3}
     [
+        \headerfiguremmiv{%%headerfig%%}
         \ssection{%%title%%}{\textbf{%%author%%}\\%%url%%}
         \subtitle{%%subtitle%%}
     ]

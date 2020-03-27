@@ -399,13 +399,28 @@ innerbottommargin=5pt]{cBox}
     \normalfont\small\sffamily #1
 }
 
+\newcommand{\headerfiguremmiv}[1]{%
+    \def\tmp{#1}%
+    \ifx\tmp\empty
+        %no argument
+    \else
+      %\begin{figure*}
+      %  \centering
+      \hspace{.1\linewidth}
+        \includegraphics[width=.4\linewidth]{\tmp}
+        \hspace{-.5\linewidth}
+      %\end{figure*}
+      \fi
+}
+
 \newcommand{\ssection}[2]{%
             \color{ProcessBlue}
             \rule{-1em}{0em}%
-            \rule[-1em]{0.3em}{18em}%
+            \rule[-1em]{0.3em}{17em}%
             \rule{1.875em}{0em}%
             \color{Black}
             \raisebox{25ex}{\parbox{7cm}{\normalfont\sffamily #2}}
+            \vspace{-.3cm}
             \section[#1]{\raggedright\normalfont\Huge\sffamily #1}}
 \newcommand{\ssubsection}[1]{%
             \subsection[#1]{\raggedright\normalfont\itshape #1}}                                   
