@@ -4,8 +4,9 @@ all:
 	python3 addContent.py -i main.tex -o main_with_content.tex
 	pdflatex main_with_content.tex
 	pdflatex main_with_content.tex
-ifeq ("$(OS)","Windows")
-	move /y main_with_content.pdf ..\builds\MMIVActivities_latest.pdf ..\builds\MMIVActivities_latest.pdf
+ifeq ($(OS),Windows_NT)
+	mv main_with_content.pdf ../builds/MMIVActivities_latest.pdf
+	start ../builds/MMIVActivities_latest.pdf
 else
 	mv main_with_content.pdf ../builds/MMIVActivities_latest.pdf
 	open ../builds/MMIVActivities_latest.pdf
