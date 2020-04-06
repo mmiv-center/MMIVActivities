@@ -10,6 +10,7 @@ ifeq ($(OS),Windows_NT)
 	mv main_with_content.pdf ../builds/MMIVActivities_latest.pdf
 	start ../builds/MMIVActivities_latest.pdf
 else
-	mv main_with_content.pdf ../builds/MMIVActivities_latest.pdf
+	gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dNOPAUSE -dQUIET -dBATCH -dPrinted=false -sOutputFile=../builds/MMIVActivities_latest.pdf main_with_content.pdf 
+	#mv main_with_content.pdf ../builds/MMIVActivities_latest.pdf
 	open ../builds/MMIVActivities_latest.pdf
 endif
