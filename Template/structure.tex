@@ -57,6 +57,8 @@
 \usepackage[utf8]{inputenc} % Required for including letters with accents
 \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
 
+\definecolor{MMIVblue}{RGB}{10, 98, 129}
+
 %----------------------------------------------------------------------------------------
 %	MAIN TABLE OF CONTENTS
 %----------------------------------------------------------------------------------------
@@ -67,9 +69,9 @@
 % Chapter text styling
 \titlecontents{chapter}[1.25cm] % Indentation
 {\addvspace{15pt}\large\sffamily} % Spacing and font options for chapters
-{\color{Apricot!60}\contentslabel[\Large\thecontentslabel]{1.25cm}\color{Apricot}} % Chapter number
+{\color{MMIVblue!60}\contentslabel[\Large\thecontentslabel]{1.25cm}\color{MMIVblue}} % Chapter number
 {}  
-{\color{Apricot!60}\normalsize\sffamily\;\titlerule*[.5pc]{.}\;\thecontentspage} % Page number
+{\color{MMIVblue!60}\normalsize\sffamily\;\titlerule*[.5pc]{.}\;\thecontentspage} % Page number
 % Section text styling
 \titlecontents{section}[1.25cm] % Indentation
 {\addvspace{5pt}\sffamily} % Spacing and font options for sections
@@ -153,10 +155,10 @@
 {0pt}% Space below
 {\normalfont}% % Body font
 {}% Indent amount
-{\small\bf\sffamily\color{Apricot}}% % Theorem head font
+{\small\bf\sffamily\color{MMIVblue}}% % Theorem head font
 {\;}% Punctuation after theorem head
 {0.25em}% Space after theorem head
-{\small\sffamily\color{Apricot}\thmname{#1}\nobreakspace\thmnumber{\@ifnotempty{#1}{}\@upn{#2}}% Theorem text (e.g. Theorem 2.1)
+{\small\sffamily\color{MMIVblue}\thmname{#1}\nobreakspace\thmnumber{\@ifnotempty{#1}{}\@upn{#2}}% Theorem text (e.g. Theorem 2.1)
 \thmnote{\nobreakspace\the\thm@notefont\sffamily\bfseries\color{black}---\nobreakspace#3.}} % Optional theorem note
 \renewcommand{\qedsymbol}{$\blacksquare$}% Optional qed square
 
@@ -190,10 +192,10 @@
 {5pt}% Space below
 {\normalfont}% % Body font
 {}% Indent amount
-{\small\bf\sffamily\color{Apricot}}% % Theorem head font
+{\small\bf\sffamily\color{MMIVblue}}% % Theorem head font
 {\;}% Punctuation after theorem head
 {0.25em}% Space after theorem head
-{\small\sffamily\color{Apricot}\thmname{#1}\nobreakspace\thmnumber{\@ifnotempty{#1}{}\@upn{#2}}% Theorem text (e.g. Theorem 2.1)
+{\small\sffamily\color{MMIVblue}\thmname{#1}\nobreakspace\thmnumber{\@ifnotempty{#1}{}\@upn{#2}}% Theorem text (e.g. Theorem 2.1)
 \thmnote{\nobreakspace\the\thm@notefont\sffamily\bfseries\color{black}---\nobreakspace#3.}} % Optional theorem note
 \renewcommand{\qedsymbol}{$\blacksquare$}% Optional qed square
 \makeatother
@@ -224,7 +226,7 @@
 \newmdenv[skipabove=7pt,
 skipbelow=7pt,
 backgroundcolor=black!5,
-linecolor= Apricot, % Modify the colour of theorem boxes
+linecolor= MMIVblue, % Modify the colour of theorem boxes
 innerleftmargin=5pt,
 innerrightmargin=5pt,
 innertopmargin=5pt,
@@ -239,8 +241,8 @@ rightline=false,
 leftline=true,
 topline=false,
 bottomline=false,
-backgroundcolor=Apricot!10,
-linecolor=Apricot,
+backgroundcolor=MMIVblue!10,
+linecolor=MMIVblue,
 innerleftmargin=5pt,
 innerrightmargin=5pt,
 innertopmargin=5pt,
@@ -256,7 +258,7 @@ rightline=false,
 leftline=true,
 topline=false,
 bottomline=false,
-linecolor=Apricot,
+linecolor=MMIVblue,
 innerleftmargin=5pt,
 innerrightmargin=5pt,
 innertopmargin=0pt,
@@ -284,7 +286,7 @@ innerbottommargin=5pt]{cBox}
 
 % Creates an environment for each type of theorem and assigns it a theorem text style from the "Theorem Styles" section above and a colored box from above
 \newenvironment{theorem}{\begin{tBox}\begin{theoremeT}}{\end{theoremeT}\end{tBox}}
-\newenvironment{exercise}{\begin{eBox}\begin{exerciseT}}{\hfill{\color{Apricot}\tiny\ensuremath{\blacksquare}}\end{exerciseT}\end{eBox}}				  
+\newenvironment{exercise}{\begin{eBox}\begin{exerciseT}}{\hfill{\color{MMIVblue}\tiny\ensuremath{\blacksquare}}\end{exerciseT}\end{eBox}}				  
 \newenvironment{definition}{\begin{dBox}\begin{definitionT}}{\end{definitionT}\end{dBox}}	
 \newenvironment{example}{\begin{exampleT}}{\hfill{\tiny\ensuremath{\blacksquare}}\end{exampleT}}		
 \newenvironment{corollary}{\begin{cBox}\begin{corollaryT}}{\end{corollaryT}\end{cBox}}	
@@ -298,7 +300,7 @@ innerbottommargin=5pt]{cBox}
 \leftmargin=35pt % Indentation on the left
 \rightmargin=25pt}\item\ignorespaces % Indentation on the right
 \makebox[-2.5pt]{\begin{tikzpicture}[overlay]
-\node[draw=Orchid!60,line width=1pt,circle,fill=Orchid!25,font=\sffamily\bfseries,inner sep=2pt,outer sep=0pt] at (-15pt,0pt){\textcolor{Apricot}{R}};\end{tikzpicture}} % Orange R in a circle
+\node[draw=Orchid!60,line width=1pt,circle,fill=Orchid!25,font=\sffamily\bfseries,inner sep=2pt,outer sep=0pt] at (-15pt,0pt){\textcolor{MMIVblue}{R}};\end{tikzpicture}} % Orange R in a circle
 \advance\baselineskip -1pt}{\end{list}\vskip5pt} % Tighter line spacing and white space after remark
 
 
@@ -307,7 +309,7 @@ innerbottommargin=5pt]{cBox}
 %----------------------------------------------------------------------------------------
 
 \makeatletter
-\renewcommand{\@seccntformat}[1]{\llap{\textcolor{Apricot}{
+\renewcommand{\@seccntformat}[1]{\llap{\textcolor{MMIVblue}{
     % remove the section numbers from the right side of the pages
     %\csname the#1\endcsname
 }\hspace{1em}}}                    
@@ -364,7 +366,7 @@ innerbottommargin=5pt]{cBox}
 %\fill[color=Orchid!10!white,opacity=.6] (1cm,0) rectangle (8cm,-7cm);
 %\node[anchor=north west] at (1.1cm,.35cm) {\parbox[t][8cm][t]{6.5cm}{\huge\bfseries\flushleft \printcontents{l}{1}{\setcounter{tocdepth}{2}}}};
 %% changes chapter in Events page
-\draw[anchor=west] (.5cm,-13cm) node [rounded corners=2pt,fill=Apricot!10!white,text opacity=1,draw=Apricot,draw opacity=1,line width=1pt,fill opacity=.6,inner sep=10pt]{\huge\sffamily\textcolor{black}{\thechapter. #1\strut\makebox[22cm]{}}};
+\draw[anchor=west] (.5cm,-13cm) node [rounded corners=2pt,fill=MMIVblue!10!white,text opacity=1,draw=MMIVblue,draw opacity=1,line width=1pt,fill opacity=.6,inner sep=10pt]{\huge\sffamily\textcolor{black}{\thechapter. #1\strut\makebox[22cm]{}}};
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{tikzpicture}};
 \end{tikzpicture}}
@@ -383,7 +385,7 @@ innerbottommargin=5pt]{cBox}
 {\begin{tikzpicture}[remember picture,overlay]
 \node[anchor=north west,inner sep=0pt] at (0,0) {\includegraphics[height=\paperheight]{\thechapterimage}};
 %% the table of content 
-%%\draw[anchor=west] (.5cm,-9cm) node [rounded corners=2pt,fill=Apricot!10!white,fill opacity=.6,inner sep=12pt,text opacity=1,draw=Apricot,draw opacity=1,line width=1pt]{\Huge\sffamily\bfseries\textcolor{black}{Table of #1\strut\makebox[22cm]{}}};
+%%\draw[anchor=west] (.5cm,-9cm) node [rounded corners=2pt,fill=MMIVblue!10!white,fill opacity=.6,inner sep=12pt,text opacity=1,draw=MMIVblue,draw opacity=1,line width=1pt]{\Huge\sffamily\bfseries\textcolor{black}{Table of #1\strut\makebox[22cm]{}}};
 \end{tikzpicture}};
 \end{tikzpicture}}
 {\normalfont\Humunguous\sffamily Table of #1}
@@ -414,7 +416,7 @@ innerbottommargin=5pt]{cBox}
 }
 
 \newcommand{\ssection}[2]{%
-            \color{ProcessBlue}
+            \color{MMIVblue}
             \rule{-1em}{0em}%
             \rule[-1em]{0.3em}{17em}%
             \rule{1.875em}{0em}%

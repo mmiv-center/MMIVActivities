@@ -6,7 +6,7 @@
     %%text%%
 
     %% footer
-    \begin{tcolorbox}[colback=ProcessBlue!5!white,colframe=ProcessBlue!95!black,title=Summary]
+    \begin{tcolorbox}[colback=MMIVblue!5!white,colframe=MMIVblue!95!black,title=Summary]
     Tags: %%tags%%\\
     Date: %%date%%      
     \end{tcolorbox}
