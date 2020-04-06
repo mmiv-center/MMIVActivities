@@ -7,7 +7,8 @@ all:
 	pdflatex main_with_content
 	pdflatex main_with_content
 ifeq ($(OS),Windows_NT)
-	mv main_with_content.pdf ../builds/MMIVActivities_latest.pdf
+	gswin64c -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dNOPAUSE -dQUIET -dBATCH -dPrinted=false -sOutputFile=../builds/MMIVActivities_latest.pdf main_with_content.pdf 
+	#mv main_with_content.pdf ../builds/MMIVActivities_latest.pdf
 	start ../builds/MMIVActivities_latest.pdf
 else
 	gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dNOPAUSE -dQUIET -dBATCH -dPrinted=false -sOutputFile=../builds/MMIVActivities_latest.pdf main_with_content.pdf 
