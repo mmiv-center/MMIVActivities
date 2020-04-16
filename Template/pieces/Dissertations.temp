@@ -2,25 +2,20 @@
 \section{%%title%%}{\textbf{%%author%%}\\%%url%%}
 %%\subtitle{%%subtitle%%}
 
-
 \noindent
 \begin{minipage}[c]{0.6\linewidth}
 
-picture would be great here, or a two column layout
-picture would be great here, or a two column layout
-picture would be great here, or a two column layout
-
-\end{minipage} % no space if you would like to put them side by side
-\begin{minipage}[c]{0.35\linewidth}
 %%text%%
+\end{minipage} % no space if you would like to put them side by side
+\hspace{1cm}%
+\begin{minipage}[c]{0.3\linewidth}
 
-picture would be great here, or a two column layout
-picture would be great here, or a two column layout
+ \includegraphics[width=\linewidth]{%%portrait%%} 
 
 %% footer
-\begin{tcolorbox}[colback=MMIVblue!5!white,colframe=MMIVblue!95!black,title=Summary]
-Tags: %%tags%%\\
-Date: %%date%%      
+\begin{tcolorbox}[colback=MMIVblue!5!white,colframe=MMIVblue!95!black,title=Author Information]
+%%author%%\\
+Defense: %%date%%      
 \end{tcolorbox}
 
 \end{minipage}
