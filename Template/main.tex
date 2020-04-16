@@ -43,8 +43,8 @@
 %	SET THESE VARIABLES!
 %----------------------------------------------------------------------------------------
 
-\def\mytitle{MMIV Activities} % Title of the ILM project
-\def\ILMCode{Annual Report 2020} % Unique code for the ILM project
+\def\mytitle{MMIV} % Title of the ILM project
+\def\ILMCode{Annual Report 2019} % Unique code for the ILM project
 
 \def\ILMCentreName{Mohn Medical Imaging and Visualization Center} % The name of the centre you're the ILM sitting at
 \def\ILMCentreCode{Norway} % Unique code the centre at which you're sitting the ILM
@@ -108,16 +108,17 @@
 
 \begingroup
 \thispagestyle{empty}
-\AddToShipoutPicture*{\put(0,0){\includegraphics[height=\paperheight]{Pictures/MMIV-2.png}}} % Image background
+\AddToShipoutPicture*{\put(0,0){\includegraphics[height=\paperheight]{Pictures/cover2.png}}} % Image background
 \centering
 \vspace*{11.3cm}
 \par\normalfont\fontsize{35}{35}\sffamily\selectfont
 
 \begin{center}
+
     % List of Latex Colour names here: https://www.overleaf.com/learn/latex/Using_colours_in_LaTeX
-	\text{\color{MMIVblue} \mytitle}  % Modify the name of the colour used to suit your image
+	%\text{\color{MMIVblue} \mytitle}  % Modify the name of the colour used to suit your image
 	
-    \text{\color{Black}\ILMCode} % Modify the name of the colour used to suit your image
+    %\text{\color{Black}\ILMCode} % Modify the name of the colour used to suit your image
     
     \color{black}\par % Modify the name of the colour used to suit your image
     
@@ -208,7 +209,7 @@ the content in any way publicly or privately.
 %	Events
 %----------------------------------------------------------------------------------------
 
-\chapterimage{MMIV.png}
+\chapterimage{brain.png}
 \chapter{Events}
 \newpage
 
@@ -241,10 +242,10 @@ the content in any way publicly or privately.
 
 
 %--------------------------------------------------------------
-%	Second set of related questions
+%	Dissertations
 %----------------------------------------------------------------------------
 
-\chapterimage{Heading3.jpg}
+\chapterimage{Dissertations.png}
 \chapter{Dissertations}
 \newpage
 
@@ -281,7 +282,7 @@ the content in any way publicly or privately.
 
 % Simply upload additional images Heading5.jpg, Heading6.jpg etc. into the pictures folder
 
-\chapterimage{Heading5.jpg}
+\chapterimage{cover.png}
 \chapter{Research Projects}
 \newpage
 
@@ -291,8 +292,9 @@ the content in any way publicly or privately.
 %	References
 %----------------------------------------------------------------------------------------
 
-\chapterimage{Heading1.jpg} % Chapter heading image
+\chapterimage{MMIV-2.png} % Chapter heading image
 \chapter{Publications}
+\newpage
 \nocite{*}
 \bibliographystyle{plain} % Change this to IEEE or Harvard etc.
 \bibliography{../Publications/publications}
