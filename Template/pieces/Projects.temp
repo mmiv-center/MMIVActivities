@@ -9,10 +9,7 @@
 \end{multicols}
 
     \begin{tcolorbox}[colback=MMIVblue!5!white,colframe=MMIVblue!95!black,title=Team]
-	\textbf{Team leader:} %%author%%\\
-    \textbf{Senior researchers:} %%senior%%\\
-    \textbf{Postdocs:} %%post%%\\
-	\textbf{PhD candidates and students:} %%phd%%
+	%%box%%
     \end{tcolorbox}
 
 \newpage
