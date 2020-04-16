@@ -1,13 +1,27 @@
-\begin{multicols}{3}
-    [
-        \ssection{%%title%%}{\textbf{%%author%%}\\%%url%%}
-        \subtitle{%%subtitle%%}
-    ]
-    %%text%%
 
-    %% footer
-    \begin{tcolorbox}[colback=MMIVblue!5!white,colframe=MMIVblue!95!black,title=Summary]
-    Tags: %%tags%%\\
-    Date: %%date%%      
-    \end{tcolorbox}
-\end{multicols}
+\section{%%title%%}{\textbf{%%author%%}\\%%url%%}
+%%\subtitle{%%subtitle%%}
+
+
+\noindent
+\begin{minipage}[c]{0.6\linewidth}
+
+picture would be great here, or a two column layout
+picture would be great here, or a two column layout
+picture would be great here, or a two column layout
+
+\end{minipage} % no space if you would like to put them side by side
+\begin{minipage}[c]{0.35\linewidth}
+%%text%%
+
+picture would be great here, or a two column layout
+picture would be great here, or a two column layout
+
+%% footer
+\begin{tcolorbox}[colback=MMIVblue!5!white,colframe=MMIVblue!95!black,title=Summary]
+Tags: %%tags%%\\
+Date: %%date%%      
+\end{tcolorbox}
+
+\end{minipage}
+

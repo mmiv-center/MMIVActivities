@@ -51,7 +51,8 @@ def main(argv):
                     '%%PLACEHOLDEREVENTS%%': 'Events',
                     '%%PLACEHOLDERDISSERTATIONS%%': 'Dissertations',
                     '%%PLACEHOLDERHIGHLIGHTS%%': 'Highlights',
-                    '%%PLACEHOLDERPROJECTS%%': 'Projects'
+                    '%%PLACEHOLDERPROJECTS%%': 'Projects',
+                    '%%PLACEHOLDERINTRODUCTIONS%%': 'Introduction'
                     }
 
     c = 0
