@@ -1,6 +1,6 @@
 ### Build system
 
-In order to create the PDF document you can use the Makefile provided in this folder. The project depends on pdflatex so you need to have such a system installed on your computer before you can generate a new version of the PDF.
+In order to create the PDF document you can use the Makefile provided in this folder. The project depends on pdflatex and python3, so you need to have such software installed on your computer before you can generate a new version of the PDF.
 
 Submit new text artifacts using the provided examples in the Events, Software, Dissertations, and Projects folders.
 
