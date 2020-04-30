@@ -52,7 +52,8 @@ def main(argv):
                     '%%PLACEHOLDERDISSERTATIONS%%': 'Dissertations',
                     '%%PLACEHOLDERHIGHLIGHTS%%': 'Highlights',
                     '%%PLACEHOLDERPROJECTS%%': 'Projects',
-                    '%%PLACEHOLDERINTRODUCTIONS%%': 'Introduction'
+                    '%%PLACEHOLDERINTRODUCTIONS%%': 'Introduction',
+                    '%%PLACEHOLDERBIOS%%': 'Bios'
                     }
 
     c = 0
