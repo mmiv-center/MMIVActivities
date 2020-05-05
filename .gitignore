@@ -1,0 +1,10 @@
+
+Template/main_with_content.aux
+*.log
+Template/main_with_content.out
+Template/main_with_content.ptc
+Template/main_with_content.tex
+Template/main_with_content.toc
+*.bbl
+Template/main_with_content.blg
+Template/main_with_content.pdf
