@@ -1,13 +1,10 @@
 \begin{multicols}{3}
     [
-        \ssection{%%title%%}{\textbf{%%author%%}\\%%url%%}
+        \headerfiguremmiv{%%picture%%}
+        \ssection{%%title%%}
         \subtitle{%%subtitle%%}
     ]
     %%text%%
 
     %% footer
-    \begin{tcolorbox}[colback=MMIVblue!5!white,colframe=MMIVblue!95!black,title=Summary]
-    Tags: %%tags%%\\
-    Date: %%date%%      
-    \end{tcolorbox}
 \end{multicols}
