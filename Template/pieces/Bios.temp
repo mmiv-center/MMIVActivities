@@ -1,10 +1,4 @@
-\begin{multicols}{3}
-    [
-        \headerfiguremmiv{%%picture%%}
-        \ssection{%%title%%}
-        \subtitle{%%subtitle%%}
-    ]
-    %%text%%
+\subsection*{%%title%%}
+\includegraphics[width=.5\linewidth]{%%picture%%}
 
-    %% footer
-\end{multicols}
+%%text%%
