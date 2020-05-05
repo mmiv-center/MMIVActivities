@@ -1,5 +1,4 @@
 title: Lea Starck
-subtitle: perfusion MRI
 picture: ../Bios/starck/image.jpeg
 text: 
 

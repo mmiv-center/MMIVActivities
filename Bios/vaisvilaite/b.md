@@ -1,5 +1,4 @@
 title: Liucija Vaisvilaite
-subtitle: fMRI
 picture: ../Bios/vaisvilaite/image.jpg
 text: 
 

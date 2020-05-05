@@ -1,5 +1,4 @@
 title: Marek Kocinski
-subtitle: deep learning
 picture: ../Bios/kocinski/image.jpg
 text: 
 

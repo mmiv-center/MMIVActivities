@@ -1,5 +1,4 @@
 title: Samaneh Abolpour Mofrad
-subtitle: machine learning
 picture: ../Bios/mofrad/image.jpg
 text: 
 

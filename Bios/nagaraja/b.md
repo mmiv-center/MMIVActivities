@@ -1,5 +1,4 @@
 title: Bharath Nagaraja
-subtitle: machine learning
 picture: ../Bios/nagaraja/image.jpeg
 text: 
 

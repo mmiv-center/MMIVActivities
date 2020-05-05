@@ -1,5 +1,4 @@
 title: Kari Strøno Wagner-Larsen
-subtitle: cancer imaging
 picture: ../Bios/wagner/image.jpg
 text: 
 
