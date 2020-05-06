@@ -1,5 +1,4 @@
-title: Tania Martínez-Montero 
-subtitle: brain networks
+title: Tania Martínez-Montero
 picture: ../Bios/Martínez-Montero/image.jpg
 text: 
 
