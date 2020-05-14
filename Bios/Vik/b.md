@@ -1,0 +1,4 @@
+itle: Alexandra Vik
+picture: ../Bios/garrison/image.png
+text: 
+Alexandra Vik has an interdisciplinary education in cognitive neuroscience from NTNU. In a period of three years, she was a board member of MedIm (Norwegian Research School in Medical Imaging), a nationwide network for high quality training. She defended her PhD thesis entitled "Imaging the aging brain: From morphometry to functional connectivity"  in 2019 at the University of Bergen. She is currently a member of the «Computational medical imaging and machine learning - methods, infrastructure and applications» project at the MMIV. In her postdoctoral position, she will follow up her previous interdisciplinary contribution in studies of the aging brain, believing that both scientific progress and improved care for older individuals are dependent on bridging the gap between the disciplines of psychology, medicine, informatics and mathematics. 
