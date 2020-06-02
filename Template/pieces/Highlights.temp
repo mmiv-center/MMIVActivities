@@ -1,6 +1,6 @@
 \begin{multicols}{3}
     [
-        \ssection{%%title%%}{\textbf{%%author%%}\\%%url%%}
+        \sssection{%%title%%}{\textbf{%%author%%}\\%%url%%}
         \subtitle{%%subtitle%%}
     ]
     %%text%%
