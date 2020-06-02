@@ -53,7 +53,8 @@ def main(argv):
                     '%%PLACEHOLDERHIGHLIGHTS%%': 'Highlights',
                     '%%PLACEHOLDERPROJECTS%%': 'Projects',
                     '%%PLACEHOLDERINTRODUCTIONS%%': 'Introduction',
-                    '%%PLACEHOLDERBIOS%%': 'Bios'
+                    '%%PLACEHOLDERBIOS%%': 'Bios',
+                    '%%PLACEHOLDERSAB%%': 'Sab'
                     }
 
     c = 0
