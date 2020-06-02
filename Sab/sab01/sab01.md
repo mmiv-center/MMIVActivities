@@ -5,7 +5,7 @@ The scientific advisory board at the MMIV consists of four senior scientists who
 \subsection*{Anders Persson}
 \begin{Figure}
     \centering
-	\includegraphics[width=\linewidth]{../Sab/sab01/AndersPersson.png}
+	\includegraphics[width=.9\linewidth]{../Sab/sab01/AndersPersson.png}
 \end{Figure}
 
 Professor Anders Persson, PhD and MD, received his medical degree at Karolinska Institute, Faculty of Medicine, Stockholm Sweden in 1985 and completed his specialty radiology training in 1992.
@@ -17,7 +17,7 @@ Several international and national awards such as H.M. The Kings Gold Medal H.M.
 \subsection*{Bernhard Preim}
 \begin{Figure}
     \centering
-	\includegraphics[width=\linewidth]{../Sab/sab01/Bernhard.jpg}
+	\includegraphics[width=.9\linewidth]{../Sab/sab01/Bernhard.jpg}
 \end{Figure}
 
 Bernhard Preim is a specialist in human-computer interaction as well as in visual computing for medicine. He is currently professor of visualization at University of Magdeburg, Germany.
@@ -27,11 +27,17 @@ Bernhard Preim was founding speaker of the working group Medical Visualization i
 \subsection*{Bradley J Erickson}
 \begin{Figure}
     \centering
-	\includegraphics[width=\linewidth]{../Sab/sab01/Bradley.jpg}
+	\includegraphics[width=.9\linewidth]{../Sab/sab01/Bradley.jpg}
 \end{Figure}
 
 Bradley J Erickson, MD PhD, received his MD and PhD degrees from Mayo Clinic. He went on to be trained in radiology, and then a Neuroradiology fellowship at Mayo, and has been on staff at Mayo for 20 years, where he does clinical Neuroradiology, has been chair of the Radiology Informatics Division and is Associate Chair for Research. He has been awarded multiple external grants, including NIH grants on MS, brain tumors, polycystic kidney disease, and medical image exchange. He is a former president of the Society of Imaging Informatics in Medicine, is current Chair of the American Board of Imaging Informatics, and serves on the Board of the IHE USA. He recently won the nVIDIA Global Impact Award for his work on deep learning applications in medical images.
 
+\subsection*{Anders Dale}
+\begin{Figure}
+    \centering
+	\includegraphics[width=.9\linewidth]{../Sab/sab01/AndersDale.jpg}
+\end{Figure}
+Anders Martin Dale is a neuroscientist and Professor of Radiology, Neurosciences, Psychiatry, and Cognitive Science at the University of California, San Diego (UCSD) and the founding Director of the Center for Multimodal Imaging Genetics (CMIG) at UCSD. His research focuses on the development and application of advanced techniques for acquisition and analysis of multimodal structural and functional imaging data. Several of these methods have had major, and in some cases transformative, impact on their respective fields. Specific examples include 1) development of rapid event related experimental design and statistical analysis methods for fMRI; 2) development of fully automated methods for segmentation of the cortical surface, subcortical nuclei, and white matter tracts from MRI scans – instantiated in the FreeSurfer software package, used by more than 10,000 researchers around the world; 3) development of standardized image acquisition protocols and analysis procedures enabling use of quantitative imaging biomarker in large-scale, multisite research studies, as well as in clinical practice – these procedures were fundamental to the success of the Alzheimer's Disease Neuroimaging Initiative (ADNI), the Pediatric Imaging Neurocognition and Genetics (PING), and the Adolescent Brain Cognitive Development (ABCD) Study. He serves as the PI of the Data Analysis and Informatics Resource Center (DAIRC) of the ABCD Study. He has authored more than 500 peer-reviewed publications, with more than 118,000 total citations, an h-index of 148, and was recently listed among the top ten "most influential brain scientists of the modern era" (Science, 2016).
 
 
 
