@@ -1,4 +1,4 @@
-\sssection{%%title%%}{\large\textit{%%subtitle%%}\\ \normalsize\textbf{-%%author%%} \\ \vspace{1cm} \hheaderfiguremmiv{%%headerfig%%}}
+\sssection{%%title%%}{\large\textit{%%subtitle%%}\\ \\ \\ \\ \hheaderfiguremmiv{%%headerfig%%} \\ \normalsize\textbf{-%%author%%}\\ \normalsize\textbf{MMIV Centre Leader}}
 
 %%text%%
 
