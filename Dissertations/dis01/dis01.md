@@ -1,4 +1,4 @@
-title: Hva kan MRI lære oss om hallusinasjoner?
+title: Can we explain hallucinations using MRI?
 subtitle:
 author: Gerard Dwyer
 tags: 

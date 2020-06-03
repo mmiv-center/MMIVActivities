@@ -10,7 +10,7 @@ HUS has PIs/researchers from Dep. of Radiology and Womens Clinic, and many colla
 
 The leadership group comprising principal investigators of the teams meet monthly to discuss scientific and administrative issues and share updates on progress and plans for the different projects. A monthly public MMIV seminar (duration 60 minutes) followed by coffee/waffles is hosted at Haraldplass in conjuncture with this leadership meeting. The daily management group at MMIV (comprising the Head of MMIV, Ingfrid Haldorsen, senior researcher Hauke Bartsch, associate professor Noeska Smit and Elin Myhrvold [secretary]) have weekly meetings.
 
-Guiding the scientific direction of MMIV, a scientific advisory board (SAB) has been appointed (page \ref{SAB}). They comprise highly acknowledged international scientists who push the limits of imaging sciences to transform medicine, and we are very enthusiastic to capitalize on close interaction with the SAB in the years to come.
+Guiding the scientific direction of MMIV, a scientific advisory board (SAB) has been appointed (page \ref{SABSection}). They comprise highly acknowledged international scientists who push the limits of imaging sciences to transform medicine, and we are very enthusiastic to capitalize on close interaction with the SAB in the years to come.
 
 
 \pagebreak

@@ -3,7 +3,7 @@ subtitle:
 text:
 
 \begin{multicols}{3}
-\label{SAB}
+\label{SABSection}
 The scientific advisory board at the MMIV consists of four senior scientists who cover the research focus areas of the MMIV:
 
 \subsection*{Anders Persson}
