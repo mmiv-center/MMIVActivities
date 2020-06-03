@@ -416,6 +416,20 @@ innerbottommargin=5pt]{cBox}
       \fi
 }
 
+\newcommand{\hheaderfiguremmiv}[1]{%
+    \def\tmp{#1}%
+    \ifx\tmp\empty
+        %no argument
+    \else
+      %\begin{figure*}
+      %  \centering
+      \hspace{.1\linewidth}
+        \includegraphics[width=1\linewidth]{\tmp}
+        \hspace{-.5\linewidth}
+      %\end{figure*}
+      \fi
+}
+
 %% a smaller version of the section header
 \newcommand{\sssection}[2]{%
             \color{MMIVblue}
