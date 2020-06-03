@@ -1,6 +1,6 @@
 \begin{multicols}{3}
     [
-        \ssection{%%title%%}{\large\textit{%%subtitle%%} \\ \normalsize\textbf{-%%author%%}\\%%url%%}
+        \ssection{%%title%%}{\large\textit{%%subtitle%%} \\ \hhheaderfiguremmiv{%%headerfig%%} \\ \normalsize\textbf{-%%author%%}\\%%url%%}
     ]
     %%text%%
 
