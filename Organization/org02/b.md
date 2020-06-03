@@ -2,6 +2,7 @@ title: Scientific Advisory Board
 subtitle:
 text:
 
+\begin{multicols}{3}
 \label{SAB}
 The scientific advisory board at the MMIV consists of four senior scientists who cover the research focus areas of the MMIV:
 
@@ -42,3 +43,4 @@ Bradley J Erickson, MD PhD, received his MD and PhD degrees from Mayo Clinic. He
 \end{Figure}
 Anders Martin Dale is a neuroscientist and Professor of Radiology, Neurosciences, Psychiatry, and Cognitive Science at the University of California, San Diego (UCSD) and the founding Director of the Center for Multimodal Imaging Genetics (CMIG) at UCSD. His research focuses on the development and application of advanced techniques for acquisition and analysis of multimodal structural and functional imaging data. Several of these methods have had major, and in some cases transformative, impact on their respective fields. Specific examples include 1) development of rapid event related experimental design and statistical analysis methods for fMRI; 2) development of fully automated methods for segmentation of the cortical surface, subcortical nuclei, and white matter tracts from MRI scans – instantiated in the FreeSurfer software package, used by more than 10,000 researchers around the world; 3) development of standardized image acquisition protocols and analysis procedures enabling use of quantitative imaging biomarker in large-scale, multisite research studies, as well as in clinical practice – these procedures were fundamental to the success of the Alzheimer's Disease Neuroimaging Initiative (ADNI), the Pediatric Imaging Neurocognition and Genetics (PING), and the Adolescent Brain Cognitive Development (ABCD) Study. He serves as the PI of the Data Analysis and Informatics Resource Center (DAIRC) of the ABCD Study. He has authored more than 500 peer-reviewed publications, with more than 118,000 total citations, an h-index of 148, and was recently listed among the top ten "most influential brain scientists of the modern era" (Science, 2016).
 
+\end{multicols}
