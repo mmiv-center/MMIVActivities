@@ -54,6 +54,7 @@ def main(argv):
                     '%%PLACEHOLDERPROJECTS%%': 'Projects',
                     '%%PLACEHOLDERINTRODUCTIONS%%': 'Introduction',
                     '%%PLACEHOLDERBIOS%%': 'Bios',
+                    '%%PLACEHOLDERORGANIZATION%%': 'Organization',
                     '%%PLACEHOLDERSAB%%': 'Sab'
                     }
 

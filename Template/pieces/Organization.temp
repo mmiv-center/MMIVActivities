@@ -1,0 +1,10 @@
+\begin{multicols}{3}
+    [
+        \sssection{%%title%%}{\textbf{%%author%%}\\%%url%%}
+        \subtitle{%%subtitle%%}
+    ]
+    %%text%%
+
+    %% footer
+
+\end{multicols}
