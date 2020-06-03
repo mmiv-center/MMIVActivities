@@ -1,4 +1,4 @@
-\sssection{%%title%%}{\large\textit{%%subtitle%%} \\ \normalsize\textbf{-%%author%%}\\%%url%%}
+\sssection{%%title%%}{\large\textit{%%subtitle%%}\\ \normalsize\textbf{-%%author%%} \\ \vspace{1cm} \hheaderfiguremmiv{%%headerfig%%}}
 
 %%text%%
 
