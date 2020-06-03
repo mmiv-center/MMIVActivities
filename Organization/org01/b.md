@@ -1,5 +1,5 @@
-title: Organization 2
-subtitle: Something something
+title: Scientific Advisory Board
+subtitle:
 text:
 
 The scientific advisory board at the MMIV consists of four senior scientists who cover the research focus areas of the MMIV:
