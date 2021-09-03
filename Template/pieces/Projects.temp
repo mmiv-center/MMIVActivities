@@ -2,6 +2,9 @@
     %[
     %    \ssssection{%%title%%}{\large\textit{%%subtitle%%}\\ \hhheaderfiguremmiv{%%headerfig%%} \\ \normalsize\textbf{-%%author%%}}
     %]
+    %[
+        \ssssection{%%title%%}{\large\textit{%%subtitle%%}}
+    %]
     %%text%%
 
     %% footer
