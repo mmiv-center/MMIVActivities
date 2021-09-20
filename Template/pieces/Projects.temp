@@ -3,7 +3,7 @@
     %    \ssssection{%%title%%}{\large\textit{%%subtitle%%}\\ \hhheaderfiguremmiv{%%headerfig%%} \\ \normalsize\textbf{-%%author%%}}
     %]
     [
-        \ssection{%%title%%}{\large\textit{%%subtitle%%}\\ \hhheaderfiguremmiv{%%headerfig%%}}
+        \xssection{%%title%%}
     ]
     %%text%%
 

@@ -467,6 +467,17 @@ innerbottommargin=5pt]{cBox}
             \vspace{-.3cm}
             \section[#1]{\raggedright\normalfont\Huge\sffamily #1}}
 
+\newcommand{\softsection}[2]{%
+            \color{MMIVblue}
+            \rule{-1em}{0em}%
+            \rule[-1em]{0.3em}{10em}%
+            \rule{1.275em}{0em}%
+            \color{Black}
+            \raisebox{15ex}{\parbox{3cm}{\normalfont\sffamily #2}}
+            \vspace{-.3cm}
+            \section[#1]{\raggedright\normalfont\Huge\sffamily #1}}
+
+
 \newcommand{\ssssection}[2]{%
             \color{MMIVblue}
             \rule{-1em}{0em}%
@@ -475,6 +486,9 @@ innerbottommargin=5pt]{cBox}
             \color{Black}
             \raisebox{25ex}{\parbox{15cm}{\normalfont\sffamily #2}}
             % s\vspace{-.3cm}
+            \section[#1]{\raggedright\normalfont\Huge\sffamily #1}}
+
+\newcommand{\xssection}[2]{%
             \section[#1]{\raggedright\normalfont\Huge\sffamily #1}}
 
 
