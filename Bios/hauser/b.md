@@ -1,0 +1,5 @@
+title: Helwig Hauser
+picture: ../Bios/hauser/image.jpg
+text: 
+
+Helwig Hauser graduated from Vienna University of Technology, Austria, in 1995 and received the degree of Dr.techn. (PhD) from the same University in 1998.  He worked as an assistant professor at the Institute of Computer Graphics at the Vienna University of Technology from 1994 until mid-2000.  Then, Helwig Hauser joined the newly founded VRVis Research Center in Vienna, Austria, as a key researcher in the field of visualization.  In 2003, he became the Scientific Director of VRVis (www.VRVis.at).  Since 2007, Helwig Hauser is professor at the University of Bergen, Norway, and leading a research group on visualization there (vis.UiB.no).  Since 2018, he is heading the Center for Data Science, CEDAS (UiB.no/cedas).  His interests are diverse in visualization and data science, including visual data science, interactive visual data exploration and analysis, and the application of visualization to a broad range of applications. 
