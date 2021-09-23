@@ -41,3 +41,17 @@ Anders Martin Dale is a neuroscientist and Professor of Radiology, Neurosciences
 
 
 
+\newpage
+
+\section*{In Memoriam: Tania Martínez Montero 1988-2021}
+\begin{Figure}
+    \centering
+	\includegraphics[width=.9\linewidth]{../Bios/martinez-montero/image2.png}
+\end{Figure}
+
+Last week, we received the tragic news that our friend and colleague, Tania Martínez Montero, passed away unexpectedly. We were fortunate to have Tania with us as a valued member of the MMIV centre team, where she was part of Karsten’s project working on exciting neuroscience research. We first met her when she was visiting as an exchange student and were so happy to welcome her back as a PhD candidate in the RE:State project in January 2020.
+During her interactions with us at MMIV, she stood out with her passion for science, enthusiasm, and dedication to her research as well as lifting the team spirit. One of the many ways in which she strived to contribute to the MMIV is by volunteering her time together with Frank Riemer to set up a booking system for our meeting room. She did this so that booking conflicts can be avoided and also to make sure that MMIV team members have a chance to enjoy a nice lunch together every day in the same room. When the pandemic hit, Tania travelled back to Spain, but also from there we were able to enjoy her presence remotely. She was an active participant in our virtual seminars and actively promoted our virtual MMIV office space, thinking of new ways to stay connected even while we were physically apart. She was also passionate about finding ways to highlight the work of inspiring women in science. For us at MMIV, Tania and her contributions will never be forgotten.
+
+On a personal level, I would like to conclude this by sharing what a wonderful person Tania was. Even though we did not interact on a very frequent basis, Tania had a way of making me feel appreciated, making me smile, and inspiring new ideas. She was a shining light, and I will miss her warm glow.
+
+{\it Written by Noeska Smit, on behalf of the MMIV team}
