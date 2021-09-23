@@ -44,3 +44,18 @@ Bradley J Erickson, MD PhD, received his MD and PhD degrees from Mayo Clinic. He
 Anders Martin Dale is a neuroscientist and Professor of Radiology, Neurosciences, Psychiatry, and Cognitive Science at the University of California, San Diego (UCSD) and the founding Director of the Center for Multimodal Imaging Genetics (CMIG) at UCSD. His research focuses on the development and application of advanced techniques for acquisition and analysis of multimodal structural and functional imaging data. Several of these methods have had major, and in some cases transformative, impact on their respective fields. Specific examples include 1) development of rapid event related experimental design and statistical analysis methods for fMRI; 2) development of fully automated methods for segmentation of the cortical surface, subcortical nuclei, and white matter tracts from MRI scans – instantiated in the FreeSurfer software package, used by more than 10,000 researchers around the world; 3) development of standardized image acquisition protocols and analysis procedures enabling use of quantitative imaging biomarker in large-scale, multisite research studies, as well as in clinical practice – these procedures were fundamental to the success of the Alzheimer's Disease Neuroimaging Initiative (ADNI), the Pediatric Imaging Neurocognition and Genetics (PING), and the Adolescent Brain Cognitive Development (ABCD) Study. He serves as the PI of the Data Analysis and Informatics Resource Center (DAIRC) of the ABCD Study. He has authored more than 500 peer-reviewed publications, with more than 118,000 total citations, an h-index of 148, and was recently listed among the top ten "most influential brain scientists of the modern era" (Science, 2016).
 
 \end{multicols}
+\newpage
+
+\section*{In Memoriam: Tania Martínez Montero 1988-2021}
+\begin{Figure}
+    \centering
+	\includegraphics[width=.4\linewidth]{../Bios/martinez-montero/image2.png}
+\end{Figure}
+
+Last week, we received the tragic news that our friend and colleague, Tania Martínez Montero, passed away unexpectedly. We were fortunate to have Tania with us as a valued member of the MMIV centre team, where she was part of Karsten’s project working on exciting neuroscience research. We first met her when she was visiting as an exchange student and were so happy to welcome her back as a PhD candidate in the RE:State project in January 2020.
+During her interactions with us at MMIV, she stood out with her passion for science, enthusiasm, and dedication to her research as well as lifting the team spirit. One of the many ways in which she strived to contribute to the MMIV is by volunteering her time together with Frank Riemer to set up a booking system for our meeting room. She did this so that booking conflicts can be avoided and also to make sure that MMIV team members have a chance to enjoy a nice lunch together every day in the same room. When the pandemic hit, Tania travelled back to Spain, but also from there we were able to enjoy her presence remotely. She was an active participant in our virtual seminars and actively promoted our virtual MMIV office space, thinking of new ways to stay connected even while we were physically apart. She was also passionate about finding ways to highlight the work of inspiring women in science. For us at MMIV, Tania and her contributions will never be forgotten.
+
+On a personal level, I would like to conclude this by sharing what a wonderful person Tania was. Even though we did not interact on a very frequent basis, Tania had a way of making me feel appreciated, making me smile, and inspiring new ideas. She was a shining light, and I will miss her warm glow.
+
+\vspace{1cm}
+{\it Written by Noeska Smit, on behalf of the MMIV team}
